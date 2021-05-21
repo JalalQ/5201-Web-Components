@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<!-- Work completed by J. Qureshi, for http5201 Assignment 4, Winter 2021, Humber College -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Assignment 4</title>
+<link rel="stylesheet" type="text/css" href="A4-components.css">
+
+</head>
+<body>
+
+    <h1>Web Components</h1>
+
+    <h2>Four W3C Standards</h2>
+    <div> 
+        <ol>    
+            <li>The Shadow Dom</li>
+            <li>Templates</li>
+            <li>Custom Elements</li>
+            <li>HTML Imports</li>
+        </ol>        
+    </div>
+
+    <h2>Paragraph 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+
+    <h2>Paragraph 2</h2>
+    <p>Vivamus orci enim, pharetra ac porttitor eget, pretium a tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper arcu id dolor tempus, sit amet rutrum enim euismod. Sed lacinia id purus sed convallis. Nulla euismod massa rutrum rutrum luctus. Etiam sit amet ante diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat elementum scelerisque. Phasellus placerat sem ac risus porttitor sagittis. Maecenas mattis eleifend pellentesque. Integer dui dui, efficitur ut dui quis, vestibulum pellentesque mi. Sed tincidunt, sem id mollis pharetra, neque sem posuere arcu, ut consequat augue justo id nisi. Maecenas leo lacus, mollis pretium eleifend vel, efficitur sed orci. Etiam libero sapien, sodales pulvinar imperdiet a, pretium vel lectus.</p>
+
+	
+	<!-- Widget Logic for the clock display. onload="displayTime()" -->
+	<!-- Template Styling. Positioning styling is in the CSS file-->
+	<!-- Humber Logo Blue: #00275e. Logo Golden: #deb306. -->
+	<!-- https://www.w3.org/TR/CSS2/fonts.html#generic-font-families -->
+	<humber-clock>
+		<p slot="clock" id="clockDisplay" ></p>
+    </humber-clock>
+
+    <template id="tmplt__clock">
+	
+        <style>
+		
+			#cont {width:350px; height:200px; background-color: #00275e; 
+					border: 5px solid #deb306; border-radius: 15px; float: right;}
+			
+			img {display: block; width:85%; margin-left: auto; margin-right: auto;}
+			
+			#clockSlot {font-size: 44px; font-weight: bold; font-family: monospace, sans-serif;}
+			
+			#runClock {background-color:white; margin:20px 40px; padding: 5px 30px;}
+			
+			#slogan {font-size : 23px; font-weight: bold; font-family: sans-serif, sans-serif;
+						padding: 0 5% 0 12%;}
+						
+			#span1 {background-color: black; color: #00A2E8; padding: 2px 5px;}
+			
+			#span2 {background-color: white; color: #00A2E8; padding: 2px 4px;}
+            
+        </style>
+
+        <section id="cont">
+            <img src="humber-logo.png">
+            <div id="runClock"><slot name="clock" id="clockSlot"></slot></div>
+            <p id="slogan"><span id="span1">WE ARE</span><span id="span2"> FUTURISTIC</span></p>
+        </section>
+		
+    </template>
+	
+	
+	<!-- Including the Javascript files -->
+	<script type="text/javascript" src="A4-components-logic.js"></script>
+    <script type="text/javascript" src="A4-components-module.js"></script>
+</body>
+</html>

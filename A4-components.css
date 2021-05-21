@@ -1,0 +1,12 @@
+﻿/*ASSIGNMENT 4 WEB COMPONENTS*/
+/*Contains Position Styling */
+
+humber-clock{
+	position:fixed; 
+	top:20px;
+	right:20px;
+}
+
+#clockDisplay {
+	margin : 0;
+}
